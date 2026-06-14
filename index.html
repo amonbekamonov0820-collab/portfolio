@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+  </head>
+<body class="light">
+ 
+  <!-- NAV -->
+  <div class="nav-wrap">
+    <nav>
+      <div class="logo">AA<span class="dot">.</span></div>
+      <div class="nav-right">
+        <ul class="nav-links">
+          <li><a href="#about" class="nav-link">Haqimda</a></li>
+          <li><a href="#skills" class="nav-link">Ko'nikmalar</a></li>
+          <li><a href="#projects" class="nav-link">Loyihalar</a></li>
+          <li><a href="#contact" class="nav-link">Kontakt</a></li>
+        </ul>
+        <button class="toggle-btn" onclick="toggleTheme()" aria-label="Mavzuni almashtirish">
+          <div class="toggle-knob" id="knob">☀️</div>
+        </button>
+      </div>
+    </nav>
+  </div>
+ 
+  <!-- HERO -->
+  <section id="about">
+    <div class="hero">
+      <div class="hero-tag">Frontend &amp; Backend Developer</div>
+      <div class="hero-name">
+        Salom, men<br>
+        <span class="accent-color">Amonov Amonbek</span>
+      </div>
+      <div class="hero-sub">
+        Professional web-sahifalar yaratuvchi dasturchi. Zamonaviy texnologiyalar yordamida chiroyli, tezkor va qulay web-sahifalar tayyorlayman.
+      </div>
+      <div class="hero-btns">
+        <a href="#projects" class="btn-primary">Loyihalarni ko'rish</a>
+        <a href="#contact" class="btn-outline">Bog'lanish</a>
+      </div>
+    </div>
+  </section>
+ 
+  <div class="divider"></div>
+ 
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="section">
+      <div class="section-label">Ko'nikmalar</div>
+      <div class="skills-grid">
+ 
+        <div class="skill-card glass">
+          <div class="skill-top">
+            <span class="skill-name">HTML</span>
+            <span class="skill-pct">90%</span>
+          </div>
+          <div class="skill-bar-bg"><div class="skill-bar" style="width:95%"></div></div>
+          <span class="skill-tag">Markup tili</span>
+        </div>
+ 
+        <div class="skill-card glass">
+          <div class="skill-top">
+            <span class="skill-name">CSS</span>
+            <span class="skill-pct">90%</span>
+          </div>
+          <div class="skill-bar-bg"><div class="skill-bar" style="width:90%"></div></div>
+          <span class="skill-tag">Stilizatsiya</span>
+        </div>
+ 
+        <div class="skill-card glass">
+          <div class="skill-top">
+            <span class="skill-name">Bootstrap</span>
+            <span class="skill-pct">85%</span>
+          </div>
+          <div class="skill-bar-bg"><div class="skill-bar" style="width:85%"></div></div>
+          <span class="skill-tag">CSS Framework</span>
+        </div>
+ 
+        <div class="skill-card glass">
+          <div class="skill-top">
+            <span class="skill-name">JavaScript</span>
+            <span class="skill-pct">80%</span>
+          </div>
+          <div class="skill-bar-bg"><div class="skill-bar" style="width:80%"></div></div>
+          <span class="skill-tag">Dasturlash tili</span>
+        </div>
+ 
+        <div class="skill-card glass">
+          <div class="skill-top">
+            <span class="skill-name">Python</span>
+            <span class="skill-pct">75%</span>
+          </div>
+          <div class="skill-bar-bg"><div class="skill-bar" style="width:75%"></div></div>
+          <span class="skill-tag">Dasturlash tili</span>
+        </div>
+ 
+        <div class="skill-card glass">
+          <div class="skill-top">
+            <span class="skill-name">Git</span>
+            <span class="skill-pct">80%</span>
+          </div>
+          <div class="skill-bar-bg"><div class="skill-bar" style="width:85%"></div></div>
+          <span class="skill-tag">Versiya boshqaruvi</span>
+        </div>
+ 
+      </div>
+    </div>
+  </section>
+ 
+  <div class="divider"></div>
+ 
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="section">
+      <div class="section-label">Loyihalar</div>
+      <div class="projects-grid">
+ 
+        <div class="proj-card glass">
+          <span class="proj-badge">HTML / CSS</span>
+          <div class="proj-title">Biznes Landing Page</div>
+          <div class="proj-desc">Bootstrap va CSS animatsiyalar yordamida yaratilgan zamonaviy biznes web-sahifasi.</div>
+          <a class="proj-link" href="#" target="_blank">
+            <i class="bi bi-box-arrow-up-right"></i> Ko'rish
+          </a>
+        </div>
+ 
+        <div class="proj-card glass">
+          <span class="proj-badge">JavaScript</span>
+          <div class="proj-title">Portfolio Web-sahifasi</div>
+          <div class="proj-desc">Shaxsiy portfolio uchun interaktiv va responsive web-sahifa.</div>
+          <a class="proj-link" href="#" target="_blank">
+            <i class="bi bi-box-arrow-up-right"></i> Ko'rish
+          </a>
+        </div>
+ 
+        <div class="proj-card glass">
+          <span class="proj-badge">Python</span>
+          <div class="proj-title">Ma'lumot tahlil skripti</div>
+          <div class="proj-desc">Python yordamida ma'lumotlarni qayta ishlash va tahlil qilish dasturi.</div>
+          <a class="proj-link" href="#" target="_blank">
+            <i class="bi bi-box-arrow-up-right"></i> Ko'rish
+          </a>
+        </div>
+ 
+        <div class="proj-card glass">
+          <span class="proj-badge">Bootstrap</span>
+          <div class="proj-title">Mahsulot katalogi</div>
+          <div class="proj-desc">Bootstrap grid tizimi asosida qurilgan responsive mahsulot ko'rgazma sahifasi.</div>
+          <a class="proj-link" href="#" target="_blank">
+            <i class="bi bi-box-arrow-up-right"></i> Ko'rish
+          </a>
+        </div>
+ 
+      </div>
+    </div>
+  </section>
+ 
+  <div class="divider"></div>
+ 
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section">
+      <div class="section-label">Kontakt</div>
+      <div class="contact-grid">
+ 
+        <div class="contact-card glass">
+          <div class="contact-icon"><i class="bi bi-envelope"></i></div>
+          <div>
+            <div class="contact-label">Email</div>
+            <div class="contact-val">
+              <a href="mailto:amonbekamonov0820@gmail.com">amonbekamonov0820@gmail.com</a>
+            </div>
+          </div>
+        </div>
+ 
+        <div class="contact-card glass">
+          <div class="contact-icon"><i class="bi bi-telephone"></i></div>
+          <div>
+            <div class="contact-label">Telefon</div>
+            <div class="contact-val">
+              <a href="tel:+998918290820">+998-(91)-829-08-20</a>
+            </div>
+          </div>
+        </div>
+ 
+        <div class="contact-card glass">
+          <div class="contact-icon"><i class="bi bi-github"></i></div>
+          <div>
+            <div class="contact-label">GitHub</div>
+            <div class="contact-val">
+              <a href="https://github.com/amonbekamonov0820-collab" target="_blank">amonbekamonov0820-collab</a>
+            </div>
+          </div>
+        </div>
+ 
+        <div class="contact-card glass">
+          <div class="contact-icon"><i class="bi bi-telegram"></i></div>
+          <div>
+            <div class="contact-label">Telegram</div>
+            <div class="contact-val">
+              <a href="https://t.me/amonov_11" target="_blank">@amonov_11</a>
+            </div>
+          </div>
+        </div>
+ 
+      </div>
+    </div>
+  </section>
+ 
+  <footer>
+    © 2025 Amonov Amonbek. Barcha huquqlar himoyalangan.
+  </footer>
+ 
+  <script>
+    function toggleTheme() {
+      const body = document.body;
+      const knob = document.getElementById('knob');
+      if (body.classList.contains('light')) {
+        body.classList.replace('light', 'dark');
+        knob.textContent = '🌙';
+      } else {
+        body.classList.replace('dark', 'light');
+        knob.textContent = '☀️';
+      }
+    }
+ 
+    // Smooth scroll for nav links
+    document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
+      anchor.addEventListener('click', function(e) {
+        var target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+    });
+  </script>
+ 
+</body>
+</html>
